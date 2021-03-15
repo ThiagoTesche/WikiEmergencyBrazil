@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Números de emergência">
+    <meta name="keywords" content="número, emergência, numero emergencia, number, emergency, 190, 193">
+    <meta name="author" content="Thiago Tesche">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>WikiEmergency</title>
+</head>
+<body>
+    <header class="container-header">
+        <nav class="container">
+            <div class="container-menu">
+                <div class="logo">
+
+                </div><!--/logo-->
+                <div class="menu">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Emergências</a></li>
+                        <li><a href="">Serviços Públicos</a></li>
+                    </ul>
+                </div><!--/menu-->
+                <div class="clear"></div>
+            </div><!--/container-menu-->
+            
+        </nav><!--/container-->
+    </header><!--/container-header-->
+
+    <section class="container-total">
+        <div class="container">
+            <div class="container-texto">
+                <div class="titulo">
+                    <h2>Números Essenciais</h2>
+                </div><!--/titulo-->
+                <div class="texto">
+                    <button type="button" class="botao" onclick="myFunction2()">Emergências</button>
+                    <script>
+                        function myFunction2(){
+                            if(document.getElementById("emergencia").style.display=="none"){
+                                document.getElementById("emergencia").style.display="block";
+                            }
+                            else{
+                                document.getElementById("emergencia").style.display="none";
+                            }
+                        }    
+                    </script>
+                    <div id="emergencia">
+                        <table class="tabela1">
+                            <tr>
+                                <th>Emergência</th>
+                                <th>Número</th>
+                            </tr>
+                            <tr>
+                                <th>Bombeiros</th>
+                                <th>193</th>
+                            </tr>
+                            <tr>
+                                <th>SAMU</th>
+                                <th>192</th>
+                            </tr>
+                            <tr>
+                                <th>Polícia Militar</th>
+                                <th>190</th>
+                            </tr>
+                            <tr>
+                                <th>Defesa Civil</th>
+                                <th>199</th>
+                            </tr>
+                            <tr>
+                                <th>Guarda Municipal</th>
+                                <th>153</th>
+                            </tr>
+                            <tr>
+                                <th>Disque Denúncia</th>
+                                <th>118</th>
+                            </tr>
+                            <tr>
+                                <th>Polícia civil</th>
+                                <th>197</th>
+                            </tr>
+                            <tr>
+                                <th>Polícia Rodoviária Federal</th>
+                                <th>191</th>
+                            </tr>
+                        </table>
+                    </div><!--/emergencia-->
+                    <button type="button" class="botao2" onclick="myFunction()">Serviços Públicos</button>
+                    <script>
+                        function myFunction(){
+                            if(document.getElementById("servicos-publicos").style.display=="none"){
+                                document.getElementById("servicos-publicos").style.display="block";
+                            }
+                            else{
+                                document.getElementById("servicos-publicos").style.display="none";
+                            }
+                           
+                        }
+                    </script>
+                    <div id="servicos-publicos">
+                        <table class="tabela2">
+                            <tr>
+                                <th>DETRAN</th>
+                                <th>154</th>
+                            </tr>
+                            <tr>
+                                <th>Direitos Humanos</th>
+                                <th>100</th>
+                            </tr>
+                            <tr>
+                                <th>Prevenção as drogas</th>
+                                <th>132</th>
+                            </tr>
+                            <tr>
+                                <th>Conselho Tutelar</th>
+                                <th>125</th>
+                            </tr>
+                            <tr>
+                                <th>Delegacia da mulher</th>
+                                <th>180</th>
+                            </tr>
+                            <tr>
+                                <th>Centro de valorização da vida</th>
+                                <th>141</th>
+                            </tr>
+                            <tr>
+                                <th>SUS</th>
+                                <th>136</th>
+                            </tr>
+                            <tr>
+                                <th>Procon</th>
+                                <th>151</th>
+                            </tr>
+                            <tr>
+                                <th>Água e esgoto</th>
+                                <th>115</th>
+                            </tr>
+                            <tr>
+                                <th>Energia Elétrica</th>
+                                <th>116</th>
+                            </tr>
+                            <tr>
+                                <th>Secretária de saúde</th>
+                                <th>160</th>
+                            </tr>
+                            <tr>
+                                <th>Vigilância sanitária</th>
+                                <th>150</th>
+                            </tr>
+                            <tr>
+                                <th>Ministério público</th>
+                                <th>129</th>
+                            </tr>
+                        </table>
+                    </div><!--/servicos públicos-->
+                    
+                </div><!--/texto-->
+            </div><!--container-texto-->
+        </div><!--container-->
+    </section><!--/container-total-->
+
+    
+</body>
+</html>

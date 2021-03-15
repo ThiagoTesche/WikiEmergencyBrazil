@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif; 
+}
+
+html, body {
+    width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.menu {
+    margin-top:px;
+	float: right;
+	width: 32px;
+	height: 32px;
+	background-size: 100% 100%;
+	cursor: pointer;
+	background-image: url(imagens/icon_menu.png);
+	display: none;
+}
+
+.menu ul{
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 95px;
+	border-bottom:4px solid #EB2D2D;
+	z-index: 999;
+	position: absolute;
+	text-align: center;
+	background-color: white;
+}
+
+.menu li{
+	font-size: 23px;
+	padding:20px 0px;
+	font-style: italic;
+}
+
+.menu li a{
+	color: black;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 600px){
+    header.container-header{
+        width: 100%;
+        max-width: 1400px;
+        height: 100%;
+    }
+    
+    header.container-header .container{
+        margin: 17px;
+    }
+    
+    header.container-header .container .container-menu{
+        margin-top: 12px ;
+        border-bottom: 1.5px solid black
+    }
+    
+    .container-menu .logo{
+        background-image: url(imagem/WikiEmergency.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .menu{
+        background-size: 100% 100%;
+        margin-top: -28%;
+        cursor: pointer;
+        background-image: url(imagem/icon_menu.png);
+        display: block;
+    }
+    
+    .menu ul{
+        width: 100%;
+        left: 0;
+        top: 50px;
+        display: none;
+        border-bottom: 3px solid rgb(26, 24, 24);
+        z-index: 999;
+        position: absolute;
+        text-align: center;
+        background-color: white;
+    }
+
+    .menu:hover ul{
+        display: block;
+    }
+
+    .menu ul li:hover {
+        background: rgba(240, 235, 235, 0.575);
+    }
+
+    .menu ul .atual {
+        color: #EB2D2D;
+    }
+    
+    .menu li{
+        font-size: 23px;
+        padding:20px 0px;
+        font-style: italic;
+    }
+    
+    .menu li a{
+        color: black;
+        text-decoration: none;
+    }
+
+    section.container-total{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    section.container-total .container{
+        width: 95%;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    section.container-total .container .container-texto{
+        width: 100%;
+        margin: 0 auto;
+        height: 100%; 
+    }
+
+    .container-texto .titulo h2{
+        text-align: center;
+        font: 102px;
+        font-size: normal;
+        text-decoration: underline;
+        text-shadow: 2px 1px 2px blue;
+    }
+
+    .botao{
+        width: 30%;
+        height: 50px;
+        cursor: pointer;
+        margin-top: 60px; 
+        margin-left: 35%;
+        background-color: rgb(53, 201, 201);
+        color: white;
+        font-size: 25px;
+        border: none;
+        font-family: fantasy;
+        box-shadow: 2px 3px 3px black ;
+    }
+
+    #emergencia, #servicos-publicos{
+        display: none;
+    }
+
+   .botao2{
+    width: 30%;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 60px; 
+    margin-left: 35%;
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+    border: none;
+    font-family: fantasy;
+    box-shadow: 2px 3px 3px black ;
+   }
+
+
+    .texto table.tabela1, th , tr{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 12px ;
+        margin: 10px auto;
+    }
+
+    .texto table, th, tr{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 12px ;
+        margin: 10px auto;
+    }
+
+    table.tabela1 tr{
+        background-color: rgb(5, 120, 221);
+        color: white;
+    }
+
+    table.tabela2 tr{
+        background-color: rgb(255, 166, 0);
+        color: white;
+    }
+
+   
+    
+}
+
+
+
